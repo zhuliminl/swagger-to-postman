@@ -2,15 +2,15 @@
   "collection": {
     "item": [
       {
-        "id": "73a5a20b-df6a-4bda-9236-b482ece6e9f2",
+        "id": "372ef7b3-485e-4b5d-a057-66924267cbb1",
         "name": "auth",
         "item": [
           {
-            "id": "4c1877dd-3de4-4dfe-94bd-25af0f2c53bd",
+            "id": "fad77200-71b1-44dc-9283-0529ca821dba",
             "name": "loginByEmail",
             "item": [
               {
-                "id": "3d15f428-6896-4891-ab60-ec608913eca0",
+                "id": "79a31aff-1282-4760-9f1f-a1d67d2082ba",
                 "name": "通过邮箱登录",
                 "request": {
                   "name": "通过邮箱登录",
@@ -44,7 +44,7 @@
                   "method": "POST",
                   "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"email\": \"enim ad\",\n  \"password\": \"dolor laborum\"\n}"
+                    "raw": "{\n  \"email\": \"eu ea commodo officia anim\",\n  \"password\": \"laborum irure\"\n}"
                   }
                 },
                 "response": [],
@@ -54,11 +54,11 @@
             "event": []
           },
           {
-            "id": "53c0e699-8193-4d0c-a272-55837b08eb53",
+            "id": "7604ac29-8c57-4ee9-8341-fef0cc77275a",
             "name": "loginByPhone",
             "item": [
               {
-                "id": "143e13ab-a28d-4cf9-9c85-eed58a1e6981",
+                "id": "0d6f17ea-7ba5-4111-a51b-cbb044a8cbd1",
                 "name": "通过手机号登录",
                 "request": {
                   "name": "通过手机号登录",
@@ -92,7 +92,7 @@
                   "method": "POST",
                   "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"password\": \"deserunt Duis\",\n  \"phone\": \"cillum do\"\n}"
+                    "raw": "{\n  \"password\": \"ipsum magna\",\n  \"phone\": \"anim dolore ut sit\"\n}"
                   }
                 },
                 "response": [],
@@ -102,11 +102,11 @@
             "event": []
           },
           {
-            "id": "ed7348f0-2339-4236-9527-59210f2bbbfa",
+            "id": "2566dec1-b9df-41c6-9a3c-e7a48d43ac2f",
             "name": "registerByEmail",
             "item": [
               {
-                "id": "41873461-e52d-4b36-b159-79715c9c43c3",
+                "id": "575c2a2d-d637-4c96-b89b-d9614e264bcb",
                 "name": "通过邮箱注册",
                 "request": {
                   "name": "通过邮箱注册",
@@ -140,7 +140,7 @@
                   "method": "POST",
                   "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"email\": \"dolore eiusmod velit \",\n  \"password\": \"consectetur nisi\",\n  \"username\": \"veniam consectetur\"\n}"
+                    "raw": "{\n  \"email\": \"dolore sint Duis in mollit\",\n  \"password\": \"adipisicing ullamco\",\n  \"username\": \"id consequat\"\n}"
                   }
                 },
                 "response": [],
@@ -150,11 +150,11 @@
             "event": []
           },
           {
-            "id": "8a07de0b-de64-40e4-97f3-0f529f0bf8ae",
+            "id": "81c679fd-e600-4d54-82e6-07449814c436",
             "name": "registerByPhone",
             "item": [
               {
-                "id": "96283ab7-8a00-418a-ad36-e3e5ac682fd4",
+                "id": "e792cf10-281a-4996-bab5-8e157ca50289",
                 "name": "通过手机注册",
                 "request": {
                   "name": "通过手机注册",
@@ -188,7 +188,7 @@
                   "method": "POST",
                   "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"password\": \"amet labore in\",\n  \"phone\": \"Ut occaecat\"\n}"
+                    "raw": "{\n  \"password\": \"minim officia fugiat\",\n  \"phone\": \"cillum in est\",\n  \"username\": \"amet anim minim\"\n}"
                   }
                 },
                 "response": [],
@@ -198,15 +198,15 @@
             "event": []
           },
           {
-            "id": "44289b8a-07c6-4806-be65-757627d5ca5f",
+            "id": "18beec31-a2e6-4871-a817-eed781dae3f2",
             "name": "wx",
             "item": [
               {
-                "id": "6f548627-116e-4e4a-a85c-236f9f92f001",
+                "id": "fb0e099a-717e-4d7a-95e5-44adbabfc41a",
                 "name": "getMiniLink",
                 "item": [
                   {
-                    "id": "db4c5a89-f387-43ec-ae31-f1a8aa5a6e4d",
+                    "id": "e566b979-0604-4eeb-b324-d1cdc763d0a9",
                     "name": "获取小程序跳转链接",
                     "request": {
                       "name": "获取小程序跳转链接",
@@ -244,11 +244,11 @@
                 "event": []
               },
               {
-                "id": "6bcab03f-5db5-436a-91d8-df29afd2e7c7",
+                "id": "09d3f657-3ab4-410a-bc53-942a813624a5",
                 "name": "getMiniLinkStatus",
                 "item": [
                   {
-                    "id": "724158c7-5959-42d4-a0b1-8517613fc6de",
+                    "id": "7f9fa40c-b067-4f0f-a1ab-d8ef73c320a4",
                     "name": "web 端轮询当前登录链接状态",
                     "request": {
                       "name": "web 端轮询当前登录链接状态",
@@ -286,11 +286,11 @@
                 "event": []
               },
               {
-                "id": "44c63d81-b2de-4fca-a3f5-6c8fc7306de7",
+                "id": "85630f57-8895-4249-bde8-4d0df44c5161",
                 "name": "getOpenId",
                 "item": [
                   {
-                    "id": "f8e12ed0-0e2c-4e82-bd2f-29cd9fa3ba98",
+                    "id": "a2796f93-ab00-4d03-a636-5ebd72dafdec",
                     "name": "获取 openId",
                     "request": {
                       "name": "获取 openId",
@@ -334,15 +334,15 @@
         "event": []
       },
       {
-        "id": "e38d73b4-1e8e-456b-81a4-da9045d084c0",
+        "id": "ddaa799b-1ab6-49aa-b573-8b5c4543a9fd",
         "name": "user",
         "item": [
           {
-            "id": "d57e643c-b546-4152-a559-c891f1875133",
+            "id": "5bc8082f-5b2e-457c-a033-858f9fd470f9",
             "name": "getMyInfo",
             "item": [
               {
-                "id": "07ad7caa-6027-43f1-8f66-502fac297b78",
+                "id": "6fe25713-d9cf-424a-abcf-8d1e7230654e",
                 "name": "获取自己的用户信息",
                 "request": {
                   "name": "获取自己的用户信息",
@@ -383,11 +383,11 @@
             "event": []
           },
           {
-            "id": "8555f0ef-0161-4ab6-8b4a-9e7f9edd8803",
+            "id": "81bd761a-8fdc-437b-b206-791c6cc0f3e0",
             "name": "getUserByUserId",
             "item": [
               {
-                "id": "9062e63f-0d58-43ba-9940-cb30ee6d3081",
+                "id": "aba25b51-b5c2-4844-85e4-0f45f9ed72d4",
                 "name": "获取用户信息",
                 "request": {
                   "name": "获取用户信息",

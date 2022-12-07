@@ -33,3 +33,5 @@ Once you've completed the previous steps, run the following command to convert `
 From the command line:
 
     $ node converter.js# swagger-to-postman
+
+ nvm use 10.24.1
