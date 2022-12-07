@@ -1,0 +1,455 @@
+{
+  "collection": {
+    "item": [
+      {
+        "id": "73a5a20b-df6a-4bda-9236-b482ece6e9f2",
+        "name": "auth",
+        "item": [
+          {
+            "id": "4c1877dd-3de4-4dfe-94bd-25af0f2c53bd",
+            "name": "loginByEmail",
+            "item": [
+              {
+                "id": "3d15f428-6896-4891-ab60-ec608913eca0",
+                "name": "通过邮箱登录",
+                "request": {
+                  "name": "通过邮箱登录",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "auth",
+                      "loginByEmail"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"email\": \"enim ad\",\n  \"password\": \"dolor laborum\"\n}"
+                  }
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          },
+          {
+            "id": "53c0e699-8193-4d0c-a272-55837b08eb53",
+            "name": "loginByPhone",
+            "item": [
+              {
+                "id": "143e13ab-a28d-4cf9-9c85-eed58a1e6981",
+                "name": "通过手机号登录",
+                "request": {
+                  "name": "通过手机号登录",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "auth",
+                      "loginByPhone"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"password\": \"deserunt Duis\",\n  \"phone\": \"cillum do\"\n}"
+                  }
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          },
+          {
+            "id": "ed7348f0-2339-4236-9527-59210f2bbbfa",
+            "name": "registerByEmail",
+            "item": [
+              {
+                "id": "41873461-e52d-4b36-b159-79715c9c43c3",
+                "name": "通过邮箱注册",
+                "request": {
+                  "name": "通过邮箱注册",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "auth",
+                      "registerByEmail"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"email\": \"dolore eiusmod velit \",\n  \"password\": \"consectetur nisi\",\n  \"username\": \"veniam consectetur\"\n}"
+                  }
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          },
+          {
+            "id": "8a07de0b-de64-40e4-97f3-0f529f0bf8ae",
+            "name": "registerByPhone",
+            "item": [
+              {
+                "id": "96283ab7-8a00-418a-ad36-e3e5ac682fd4",
+                "name": "通过手机注册",
+                "request": {
+                  "name": "通过手机注册",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "auth",
+                      "registerByPhone"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"password\": \"amet labore in\",\n  \"phone\": \"Ut occaecat\"\n}"
+                  }
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          },
+          {
+            "id": "44289b8a-07c6-4806-be65-757627d5ca5f",
+            "name": "wx",
+            "item": [
+              {
+                "id": "6f548627-116e-4e4a-a85c-236f9f92f001",
+                "name": "getMiniLink",
+                "item": [
+                  {
+                    "id": "db4c5a89-f387-43ec-ae31-f1a8aa5a6e4d",
+                    "name": "获取小程序跳转链接",
+                    "request": {
+                      "name": "获取小程序跳转链接",
+                      "url": {
+                        "protocol": "http",
+                        "port": "3500",
+                        "path": [
+                          "auth",
+                          "wx",
+                          "getMiniLink"
+                        ],
+                        "host": [
+                          "localhost"
+                        ],
+                        "query": [],
+                        "variable": []
+                      },
+                      "header": [
+                        {
+                          "key": "Accept",
+                          "value": "application/json"
+                        },
+                        {
+                          "key": "Content-Type",
+                          "value": "application/json"
+                        }
+                      ],
+                      "method": "GET",
+                      "body": {}
+                    },
+                    "response": [],
+                    "event": []
+                  }
+                ],
+                "event": []
+              },
+              {
+                "id": "6bcab03f-5db5-436a-91d8-df29afd2e7c7",
+                "name": "getMiniLinkStatus",
+                "item": [
+                  {
+                    "id": "724158c7-5959-42d4-a0b1-8517613fc6de",
+                    "name": "web 端轮询当前登录链接状态",
+                    "request": {
+                      "name": "web 端轮询当前登录链接状态",
+                      "url": {
+                        "protocol": "http",
+                        "port": "3500",
+                        "path": [
+                          "auth",
+                          "wx",
+                          "getMiniLinkStatus"
+                        ],
+                        "host": [
+                          "localhost"
+                        ],
+                        "query": [],
+                        "variable": []
+                      },
+                      "header": [
+                        {
+                          "key": "Accept",
+                          "value": "application/json"
+                        },
+                        {
+                          "key": "Content-Type",
+                          "value": "application/json"
+                        }
+                      ],
+                      "method": "GET",
+                      "body": {}
+                    },
+                    "response": [],
+                    "event": []
+                  }
+                ],
+                "event": []
+              },
+              {
+                "id": "44c63d81-b2de-4fca-a3f5-6c8fc7306de7",
+                "name": "getOpenId",
+                "item": [
+                  {
+                    "id": "f8e12ed0-0e2c-4e82-bd2f-29cd9fa3ba98",
+                    "name": "获取 openId",
+                    "request": {
+                      "name": "获取 openId",
+                      "url": {
+                        "protocol": "http",
+                        "port": "3500",
+                        "path": [
+                          "auth",
+                          "wx",
+                          "getOpenId"
+                        ],
+                        "host": [
+                          "localhost"
+                        ],
+                        "query": [],
+                        "variable": []
+                      },
+                      "header": [
+                        {
+                          "key": "Accept",
+                          "value": "application/json"
+                        },
+                        {
+                          "key": "Content-Type",
+                          "value": "application/json"
+                        }
+                      ],
+                      "method": "POST",
+                      "body": {}
+                    },
+                    "response": [],
+                    "event": []
+                  }
+                ],
+                "event": []
+              }
+            ],
+            "event": []
+          }
+        ],
+        "event": []
+      },
+      {
+        "id": "e38d73b4-1e8e-456b-81a4-da9045d084c0",
+        "name": "user",
+        "item": [
+          {
+            "id": "d57e643c-b546-4152-a559-c891f1875133",
+            "name": "getMyInfo",
+            "item": [
+              {
+                "id": "07ad7caa-6027-43f1-8f66-502fac297b78",
+                "name": "获取自己的用户信息",
+                "request": {
+                  "name": "获取自己的用户信息",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "user",
+                      "getMyInfo"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "token",
+                      "value": "{{token}}"
+                    }
+                  ],
+                  "method": "GET",
+                  "body": {}
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          },
+          {
+            "id": "8555f0ef-0161-4ab6-8b4a-9e7f9edd8803",
+            "name": "getUserByUserId",
+            "item": [
+              {
+                "id": "9062e63f-0d58-43ba-9940-cb30ee6d3081",
+                "name": "获取用户信息",
+                "request": {
+                  "name": "获取用户信息",
+                  "url": {
+                    "protocol": "http",
+                    "port": "3500",
+                    "path": [
+                      "user",
+                      "getUserByUserId"
+                    ],
+                    "host": [
+                      "localhost"
+                    ],
+                    "query": [
+                      {
+                        "key": "userId",
+                        "value": "{{userId}}"
+                      },
+                      {
+                        "key": "",
+                        "value": null
+                      }
+                    ],
+                    "variable": []
+                  },
+                  "header": [
+                    {
+                      "key": "Accept",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "key": "token",
+                      "value": "{{token}}"
+                    }
+                  ],
+                  "method": "GET",
+                  "body": {}
+                },
+                "response": [],
+                "event": []
+              }
+            ],
+            "event": []
+          }
+        ],
+        "event": []
+      }
+    ],
+    "event": [],
+    "variable": [],
+    "info": {
+      "_postman_id": "9b958bb3-cbdd-4c41-a8ad-9c5ba62f432a",
+      "name": "KubeOperator Restful API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "description": {
+        "type": "text/plain"
+      },
+      "id": "9b958bb3-cbdd-4c41-a8ad-9c5ba62f432a"
+    }
+  }
+}
